@@ -4,8 +4,8 @@ def main():
     print("snake_case:", var_snake)
 
 def fromCameToSnake(var_name):
+    camel = ""
     for lether in var_name:
-            camel = ""
             if lether.isupper():
                 camel = camel + "_" + lether.lower()
             else:
