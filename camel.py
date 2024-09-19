@@ -11,3 +11,5 @@ def fromCameToSnake(var_name):
             else:
                 camel = camel + lether
     return camel
+
+main()
